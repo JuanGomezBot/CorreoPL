@@ -174,7 +174,7 @@ def show_personalizado_page():
         logo_label.grid(row=0, column=1, pady=10, columnspan=2, sticky='n')
     except Exception as e:
         print(f"Error loading image: {e}")
-    regresar_button = tk.Button(root, text="Regresar", command=reset_app, bg="#f7f7f7", font=("Helvetica", 10))
+    regresar_button = tk.Button(root, text="return", command=reset_app, bg="#f7f7f7", font=("Helvetica", 10))
     regresar_button.grid(row=0, column=0, padx=10, pady=10, sticky='w')
     global columns_listbox
     columns_listbox = tk.Listbox(root, bg="#ffffff", font=("Helvetica", 10))
